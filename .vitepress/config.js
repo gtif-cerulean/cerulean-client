@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "GTIF CIF",
+  title: "GTIF CIF - BETA",
   description: "Cerulean Information Factory Dashboard",
   appearance: false, // disable dark mode
   vue: {
