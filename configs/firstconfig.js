@@ -118,7 +118,7 @@ export default {
         id: Symbol(),
         type: "internal",
         title: "Layer Control",
-        layout: { x: 0, y: 6, w: 3, h: 8 },
+        layout: { x: 0, y: 4, w: 3, h: 8 },
         widget: {
           name: "EodashLayerControl",
         },
