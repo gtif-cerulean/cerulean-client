@@ -50,7 +50,7 @@ export default {
       {
         id: Symbol(),
         type: "internal",
-        layout: { x: 0, y: 0, w: 3, h: 6 },
+        layout: { x: 0, y: 0, w: 3, h: 4 },
         widget: {
           name: "EodashItemFilter",
           properties: {
@@ -118,7 +118,7 @@ export default {
         id: Symbol(),
         type: "internal",
         title: "Layer Control",
-        layout: { x: 0, y: 6, w: 3, h: 6 },
+        layout: { x: 0, y: 6, w: 3, h: 8 },
         widget: {
           name: "EodashLayerControl",
         },
