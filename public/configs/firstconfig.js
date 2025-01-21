@@ -105,6 +105,11 @@ export default {
                   title: "Datepicker",
                   widget: {
                     name: "EodashDatePicker",
+                    properties: {
+                      hintText: `<b>Hint:</b> closest available date is displayed <br />
+                            on map (see Analysis Layers)`,
+                      toggleCalendar: true,
+                    },
                   },
                 }
               : null;
@@ -282,6 +287,7 @@ export default {
                     properties: {
                       hintText: `<b>Hint:</b> closest available date is displayed <br />
                                 on map (see Analysis Layers)`,
+                                toggleCalendar: true,
                     },
                   },
                 }
