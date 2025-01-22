@@ -45,6 +45,7 @@ export default {
           name: "EodashMap",
           properties: {
             enableCompare: true,
+            zoomToExtent: false,
           },
         },
       },
@@ -179,6 +180,7 @@ export default {
           name: "EodashMap",
           properties: {
             enableCompare: true,
+            zoomToExtent: false,
           },
         },
       },
