@@ -90,6 +90,18 @@ export default {
                     properties: {
                       showIndicatorsBtn: false,
                       showLayoutSwitcher: false,
+                      featured: [
+                        "description",
+                        "providers",
+                        "assets",
+                        "sci:doi"
+                      ],
+                      body: [
+                        "satellite",
+                        "sensor",
+                        "agency",
+                        "extent"
+                      ]
                     },
                   },
                 }
