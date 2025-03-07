@@ -1,16 +1,16 @@
 {
   "type": "module",
   "scripts": {
-    "start": "ls .eodash/dist/eo-dash.js && vitepress dev || eodash build --lib && vitepress dev",
+    "start": "vitepress dev",
     "docs:dev": "vitepress dev",
-    "docs:build": "ls .eodash/dist/eo-dash.js && vitepress build || eodash build --lib && vitepress build",
+    "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "eodash:dev": "eodash dev",
     "eodash:build": "eodash build",
     "eodash:preview": "eodash preview"
   },
   "dependencies": {
-    "@eodash/eodash": "5.0.0-rc.2.1",
+    "@eodash/eodash": "^5.0.0-rc.2.5",
     "@eox/chart": "^0.3.1",
     "@eox/drawtools": "^0.13.3",
     "@eox/jsonform": "0.12.2",
