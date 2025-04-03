@@ -45,6 +45,10 @@
  .eox-map-tooltip {
   display: block !important;
  }
+/* fix for issue with icons being white so they cant be seen */
+ .v-icon__svg {
+  fill: #003247 !important;
+ }
  :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);

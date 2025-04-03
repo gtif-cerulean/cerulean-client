@@ -10,7 +10,7 @@
     "eodash:preview": "eodash preview"
   },
   "dependencies": {
-    "@eodash/eodash": "^5.0.0-rc.2.5",
+    "@eodash/eodash": "^5.0.0",
     "@eox/chart": "^0.3.1",
     "@eox/drawtools": "^0.13.3",
     "@eox/jsonform": "0.12.2",
