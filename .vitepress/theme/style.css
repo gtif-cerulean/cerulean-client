@@ -45,9 +45,15 @@
  .eox-map-tooltip {
   display: block !important;
  }
+
+ /* fix for too large jsonform */
+ eox-jsonform {
+  max-height: fit-content !important;
+ }
+ 
 /* fix for issue with icons being white so they cant be seen */
  .v-icon__svg {
-  fill: #003247 !important;
+  fill: #254e15 !important;
  }
  :root {
   --vp-c-default-1: var(--vp-c-gray-1);
@@ -74,7 +80,7 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
-  --vp-c-esa-blue: #003247;
+  --vp-c-esa-blue: #4b6b3e;
 }
 
 /**
@@ -99,7 +105,7 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: #0083c8;
+  --vp-home-hero-name-background: #126d00;
 }
 
 /**

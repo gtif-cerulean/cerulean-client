@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "GTIF CIF - BETA",
-  description: "Cerulean Information Factory Dashboard",
+  title: "Baltic GTIF - BETA",
+  description: "Baltic Information Factory Dashboard",
   appearance: false, // disable dark mode
   vue: {
     template: {
@@ -13,13 +13,10 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    logo: '/assets/cerulean_logo.png',
+    logo: '/assets/baltic_gtif_logo.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Dashboard', link: '/uc1dashboard/' },
-      // { text: 'UC2 Dashboard', link: '/uc2dashboard/' },
-      // { text: 'Stories', link: '/stories/' },
-      { text: 'Editor', link: '/editor/' }
     ],
   }
 })

@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "GTIF CIF Dashboard - BETA"
+  name: "Baltic GTIF - BETA"
   text: ""
-  heroImage: /assets/cerulean_logo_text.png
+  image: assets/baltic_gtif_logo.png
   tagline: "Demonstrator dashboard"
 ---
 
-Dashboard integration demonstrator for capabilities being developed in the GTIF CIF activity.
+Dashboard integration demonstrator for capabilities being developed in the Baltic GTIF activity.
 Be advised this is a BETA deployment and being tested, frequent and breaking changes are to be expected.
