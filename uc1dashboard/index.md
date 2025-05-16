@@ -14,5 +14,9 @@ eo-dash .eodash-overlay p {
    bottom: -13px !important;
 }
 
+eo-dash #ButtonsPanel {
+    max-height: 50px;
+}
+
 </style>
 <eo-dash style="height:calc(100dvh - 64px)" :config="withBase('/configs/firstconfig.js')"/>
