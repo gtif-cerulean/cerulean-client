@@ -53,27 +53,22 @@ export default {
         {
           id: Symbol(),
           type: "internal",
-          layout: { x: 0, y: 0, w: 3, h: 4 },
+          title: "Tools",
+          layout: { x: 0, y: 0, w: 3, h: 1 },
           widget: {
-            name: "EodashItemFilter",
+            name: "EodashTools",
             properties: {
-              filtersTitle: '',
-              filterProperties: [{
-                "keys": [
-                  "title",
-                  "themes"
-                ],
-                "title": "Search",
-                "type": "text",
-                "placeholder": "Type Something...",
-                "expanded": true,
-                "validation": {
-                  "pattern": ".{0,10}",
-                  "message": "Maximum 10 characters"
-                }
-              }],
-              // enableHighlighting: false,
-              aggregateResults: 'collection_group',
+              // layoutTarget: "light",
+              // layoutIcon: "M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z",
+              itemFilterConfig: {
+                // resultType: "cards",
+                subTitleProperty: "subtitle",
+                // imageProperty: "thumbnail",
+                aggregateResults: "collection_group",
+                style: {
+                  "--form-flex-direction": "row",
+                },
+              },
             },
           },
         },
@@ -129,13 +124,32 @@ export default {
           },
         },
         {
-          id: Symbol(),
-          type: "internal",
-          title: "Layer Control",
-          layout: { x: 0, y: 4, w: 3, h: 8 },
-          widget: {
-            name: "EodashLayerControl",
+          defineWidget: (selected) => {
+            return selected
+              ? {
+                  id: "ButtonsPanel",
+                  layout: { x: 8, y: 0, w: 1, h: 1 },
+                  title: "Buttons",
+                  type: "internal",
+                  widget: {
+                    name: "EodashMapBtns",
+                  },
+                }
+              : null;
           },
+        },
+        {
+          defineWidget: (selectedSTAC) => {
+            return selectedSTAC ? {
+              id: Symbol(),
+              type: "internal",
+              title: "Layer Control",
+              layout: { x: 0, y: 1, w: 3, h: 8 },
+              widget: {
+                name: "EodashLayerControl",
+              }
+            } : null;
+          }
         },
         {
           defineWidget: (selectedSTAC) =>
@@ -150,21 +164,6 @@ export default {
                   },
                 }
               : null,
-        },
-        {
-          defineWidget: (selected) => {
-            return selected
-              ? {
-                  id: Symbol(),
-                  layout: { x: 8, y: 0, w: 1, h: 1 },
-                  title: "Buttons",
-                  type: "internal",
-                  widget: {
-                    name: "EodashMapBtns",
-                  },
-                }
-              : null;
-          },
         },
       ],
     },
@@ -237,7 +236,7 @@ export default {
           id: Symbol(),
           type: "internal",
           title: "Layers",
-          layout: { x: 0, y: 4, w: 3, h: 6 },
+          layout: { x: 0, y: 2, w: 3, h: 6 },
           widget: {
             name: "EodashLayerControl",
           },
