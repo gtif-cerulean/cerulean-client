@@ -62,6 +62,21 @@ export default {
               // layoutIcon: "M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z",
               itemFilterConfig: {
                 // resultType: "cards",
+                enableHighlighting: false,
+                filterProperties: [
+                  {
+                    keys: ["title", "themes"],
+                    title: "Search",
+                    type: "text",
+                    expanded : true
+                  },
+                  {
+                    key: "themes",
+                    title: "Theme Filter",
+                    type: "multiselect",
+                    expanded : true
+                  },
+                ],
                 subTitleProperty: "subtitle",
                 // imageProperty: "thumbnail",
                 aggregateResults: "collection_group",
@@ -224,7 +239,21 @@ export default {
                 enableCompare: true,
                 // resultsTitle:"Select an indicator to compare",
                 filtersTitle: "Select an indicator to compare",
-                // filterProperties: [],
+                filterProperties: [
+                  {
+                    keys: ["title", "themes"],
+                    title: "Search",
+                    type: "text",
+                    expanded : true
+                  },
+                  {
+                    key: "themes",
+                    title: "Theme Filter",
+                    type: "multiselect",
+                    expanded : true
+                  },
+                ],
+                enableHighlighting: false,
                 cssVars: {
                   "--form-flex-direction": "row",
                 },
