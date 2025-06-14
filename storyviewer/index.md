@@ -1,26 +1,74 @@
 ---
-layout: page
+layout: home
+hero:
+  name: "GTIF Cerulean"
+  tagline: "Transforming ocean data into information to support the green transition for Shipping, Offshore Renewable Energy and Aquaculture"
+  text: ""
 ---
-<script setup>
-    import { onMounted } from 'vue';
-    import { data } from '../stories/config.data.js';
-    import { withBase } from 'vitepress';
-    if(!customElements.get('eox-map')) import("@eox/map")
-    if(!customElements.get('eox-jsonform')) import("@eox/jsonform");
-
-    let storyid, storyurl;
-    if (typeof window !== 'undefined' && 'URLSearchParams' in window) {
-        const searchParams = new URLSearchParams(window.location.search);
-        storyid = searchParams.get('storyid');
-        if (storyid && storyid in data) {
-            storyurl = data[storyid].file;
-        }
-    }
-
+<script client-only>
+  if(window && !customElements.get('eox-itemfilter')) import("@eox/itemfilter");
 </script>
 
-<eox-storytelling 
-    v-if="storyurl" 
-    :markdown-url="withBase(storyurl)"
-    style="overflow-y: auto; height: calc(100vh - 64px)">
-</eox-storytelling>
+Explore the Stories below to get acquainted with the various capabilities.
+
+<script setup>
+  import { ref, onMounted } from 'vue';
+  import { withBase, useRouter } from 'vitepress';
+
+  const router = useRouter();
+  const items = ref([]);
+
+  const filterProps = [{
+    "keys": [
+      "title",
+      "subtitle"
+    ],
+    "title": "Search",
+    "type": "text",
+    "placeholder": "Search in title or subtitle",
+    "expanded": true
+  }, {
+    "key": 'theme',
+    "title": 'Theme',
+    "expanded": true,
+    "type": "select"
+  }
+  ];
+
+  onMounted(async () => {
+    try {
+      const response = await fetch('https://gtif-cerulean.github.io/cif-stories/narratives.json');
+      const results = await response.json();
+      results.forEach((res)=>{
+        if (res['cover-image'] && res['cover-image'].startsWith('build')){
+            // Adapt image urls in case locally built and not absolute
+            res['cover-image'] = 'https://gtif-cerulean.github.io/cif-stories/'+res['cover-image']
+        }
+    });
+      items.value = results;
+    } catch (error) {
+      console.error('Error fetching JSON:', error);
+    }
+  });
+
+  // Click event handler
+  const handleResultClick = (evt) => {
+    const sections = evt.detail.file.split("/");
+    const filename = sections[sections.length-1].split(".")[0];
+    router.go(withBase(`/story?id=${filename}`));
+  };
+</script>
+
+<client-only>
+  <eox-itemfilter
+    :items="items"
+    titleProperty="title"
+    imageProperty="cover-image"
+    subTitleProperty="subtitle"
+    aggregateResults="theme"
+    :filterProperties="filterProps"
+    resultType="cards"
+    @select="handleResultClick"
+    style="--form-flex-direction: row"
+  ></eox-itemfilter>
+</client-only>

@@ -42,11 +42,27 @@
  * - `danger`: Used to show error, or dangerous message to the users. Used
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
- .eox-map-tooltip {
+body {
+  z-index: 0;
+  position: absolute;
+}
+:root {
+  overflow-y: auto!important;
+}
+
+eo-dash a[href="https://eox.at"] img
+{
+  display: unset;
+  height: 9px;
+}
+eo-dash .eodash-overlay p {
+  bottom: -13px !important;
+}
+.eox-map-tooltip {
   display: block !important;
  }
 /* fix for issue with icons being white so they cant be seen */
- .v-icon__svg {
+.v-icon__svg {
   fill: #003247 !important;
  }
  :root {
@@ -131,4 +147,7 @@
 .VPNav{
   --vp-c-brand-1: rgb(191, 228, 253);
   --vp-c-text-1: white;
+}
+.VPLink{
+  background: var(--vp-c-esa-blue);
 }

@@ -73,7 +73,7 @@ export default {
                   {
                     key: "themes",
                     title: "Theme Filter",
-                    type: "multiselect",
+                    type: "select",
                     expanded : true
                   },
                 ],

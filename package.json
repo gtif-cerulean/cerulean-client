@@ -3,21 +3,17 @@
   "scripts": {
     "start": "vitepress dev",
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:build": "eodash build && vitepress build",
     "docs:preview": "vitepress preview",
     "eodash:dev": "eodash dev",
     "eodash:build": "eodash build",
     "eodash:preview": "eodash preview"
   },
   "dependencies": {
-    "@eodash/eodash": "^5.0.0",
-    "@eox/chart": "^0.3.1",
-    "@eox/drawtools": "^0.13.3",
-    "@eox/jsonform": "0.12.2",
-    "@eox/stacinfo": "^0.6.1",
-    "@eox/storytelling": "^1.5.0",
+    "@eodash/eodash": "https://pkg.pr.new/eodash/eodash/@eodash/eodash@30f4ec5",
+    "@eox/storytelling": "^1.7.2",
     "mustache": "^4.2.0",
-    "vitepress": "^1.5.0",
+    "vitepress": "^1.6.3",
     "vue": "^3.4.21"
   }
 }
