@@ -168,7 +168,7 @@ export default {
         },
         {
           defineWidget: (selectedSTAC) =>
-            selectedSTAC?.links.some((l) => l.rel === "service")
+            window.eodashStore.actions.includesProcess(selectedSTAC)
               ? {
                   id: "Processes",
                   type: "internal",
@@ -309,7 +309,9 @@ export default {
                   widget: {
                     name: "EodashMapBtns",
                     properties: {
-                      compareIndicators: false,
+                      compareIndicators: {
+                        fallbackTemplate: "light",
+                      },
                     },
                   },
                 }
