@@ -16,7 +16,7 @@ export default defineConfig({
     logo: '/assets/baltic_gtif_logo.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Dashboard', link: '/uc1dashboard/' },
+      { text: 'Dashboard', link: '/explore/' },
     ],
   }
 })

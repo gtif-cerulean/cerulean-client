@@ -16,7 +16,9 @@ export default {
       await import('@eodash/eodash/webcomponent')
       await import('@eodash/eodash/webcomponent.css') 
       await import("@eox/storytelling")
+      await import("@eox/layout")
       await import("@eox/stacinfo")
+      await import("@eox/itemfilter");
     }
   }
 }
