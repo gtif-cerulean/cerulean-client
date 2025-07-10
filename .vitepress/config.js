@@ -16,7 +16,9 @@ export default defineConfig({
     logo: '/assets/baltic_gtif_logo.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Dashboard', link: '/explore/' },
+      { text: 'Narratives', link: '/narratives' },
+      { text: 'Explore data', link: '/explore/' },
+      { text: 'Login', link: 'https://workspace.baltic-gtif.hub-otc.eox.at/' },
     ],
   }
 })
