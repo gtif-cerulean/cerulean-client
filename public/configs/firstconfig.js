@@ -7,11 +7,11 @@ if (searchParams.get('catalog')) {
 }
 
 export default {
-  id: "demo",
-  stacEndpoint: stacEndpoint,
+  id: "gtif-cerulean",
+  stacEndpoint,
   brand: {
     noLayout: true,
-    name: "Demo",
+    name: "GTIF Cerulean",
     theme: {
       colors: {
         primary: "#fff",

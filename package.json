@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "name": "gtif-cerulean-client",
   "scripts": {
     "start": "vitepress dev",
     "docs:dev": "vitepress dev",
@@ -7,10 +8,9 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "@eodash/eodash": "https://pkg.pr.new/eodash/eodash/@eodash/eodash@f18f8e9",
-    "@eox/storytelling": "^1.7.2",
+    "@eodash/eodash": "https://pkg.pr.new/eodash/eodash/@eodash/eodash@825a517",
+    "@eox/storytelling": "^1.9.1",
     "mustache": "^4.2.0",
-    "vitepress": "^1.6.3",
-    "vue": "^3.4.21"
+    "vitepress": "^1.6.3"
   }
 }
