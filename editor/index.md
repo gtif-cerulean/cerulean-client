@@ -7,10 +7,7 @@ layout: page
     import("@eox/map/dist/eox-map-advanced-layers-and-sources");
 </script>
 <style>
-    .editor-wrapper {
-        top: 50px!important;
-    }
+
 </style>
-<ClientOnly>
-    <eox-storytelling show-editor="open" style="overflow-y: auto;height: calc(100vh - 64px);" markdown="## Start your journey here!"></eox-storytelling>
-</ClientOnly>
+
+<eox-storytelling show-nav show-hero-scroll-indicator show-editor="open" class="full-width" markdown="## Start your journey here!"></eox-storytelling>
