@@ -6,14 +6,6 @@ layout: page
     import { withBase } from 'vitepress';
     import { onMounted } from "vue"
     import eodashStyle from "@eodash/eodash/webcomponent.css?raw";
-    function waitForEodashStore(callback) {
-        const interval = setInterval(() => {
-            if (window.eodashStore) {
-                clearInterval(interval)
-                callback(window.eodashStore)
-            }
-        }, 100)
-    }
     onMounted(() => {
         const EodashContainer = class extends HTMLElement {
             constructor() {
