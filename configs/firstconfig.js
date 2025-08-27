@@ -14,7 +14,7 @@ export default {
     name: "GTIF Cerulean",
     theme: {
       colors: {
-        primary: "#fff",
+        primary: "rgb(0, 39, 66)",
         secondary: "#fff",
         surface: "#fff",
       },
