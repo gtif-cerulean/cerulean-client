@@ -15,4 +15,6 @@ hero:
 Demonstrator for narratives and capabilities being developed in the Baltic GTIF activity.
 Be advised this is a BETA deployment under developemnt and being tested, frequent and breaking changes are to be expected.
 
+** Updated information!! **
+
 <div class="large-space"></div>
