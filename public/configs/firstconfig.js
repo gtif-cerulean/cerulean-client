@@ -1,14 +1,7 @@
-const store = window.eodashStore;
-// choose if production catalog or PR deployment one
-let stacEndpoint = "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json";
-const searchParams = new URLSearchParams(window.location.search);
-if (searchParams.get('catalog')) {
-  stacEndpoint = stacEndpoint.replace("catalog/",`catalog/pr-preview/${searchParams.get('catalog')}/`);
-}
 
 export default {
   id: "gtif-cerulean",
-  stacEndpoint,
+  stacEndpoint: "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
   brand: {
     noLayout: true,
     name: "GTIF Cerulean",
@@ -46,6 +39,15 @@ export default {
           properties: {
             enableCompare: true,
             zoomToExtent: false,
+            btns: {
+              enableExportMap: true,
+              enableCompareIndicators: true,
+              enableSearch: false,
+            },
+            btnsPosition: {
+              x: "12/9/9",
+              y: "3/2/2",
+            }
           },
         },
       },
@@ -54,7 +56,7 @@ export default {
           id: Symbol(),
           type: "internal",
           title: "Tools",
-          layout: { x: 0, y: 0, w: 3, h: 1 },
+          layout: { x: 0, y: 0, w: 2, h: 1 },
           widget: {
             name: "EodashTools",
             properties: {
@@ -139,21 +141,6 @@ export default {
           },
         },
         {
-          defineWidget: (selected) => {
-            return selected
-              ? {
-                  id: "ButtonsPanel",
-                  layout: { x: "7/7/8", y: 0, w: 1, h: 3 },
-                  title: "Buttons",
-                  type: "internal",
-                  widget: {
-                    name: "EodashMapBtns",
-                  },
-                }
-              : null;
-          },
-        },
-        {
           defineWidget: (selectedSTAC) => {
             return selectedSTAC ? {
               id: Symbol(),
@@ -207,6 +194,20 @@ export default {
           properties: {
             enableCompare: true,
             zoomToExtent: false,
+            btns: {
+              enableZoom: true,
+              enableExportMap: false,
+              enableChangeProjection: false,
+              enableCompareIndicators: {
+                fallbackTemplate: "light",
+              },
+              enableBackToPOIs: false,
+              enableSearch: false,
+            },
+            btnsPosition: {
+              x: "12/10/10",
+              y: "3/2/2",
+            }
           },
         },
       },
@@ -214,31 +215,14 @@ export default {
         {
           id: Symbol(),
           type: "internal",
-          layout: { x: 0, y: 0, w: 3, h: 4 },
-          widget: {
-            name: "EodashItemFilter",
-            properties: {
-              filtersTitle: '',
-              filterProperties: [],
-              aggregateResults: 'collection_group',
-            },
-          },
-        },
-        // compare indicators
-        {
-          id: Symbol(),
-          type: "internal",
           title: "Tools",
-          layout: { x: 9, y: 0, w: 3, h: 1 },
+          layout: { x: 0, y: 0, w: 2, h: 1 },
           widget: {
             name: "EodashTools",
             properties: {
-              showLayoutSwitcher: false,
-              indicatorBtnText: "Select an indicator to compare",
               itemFilterConfig: {
-                enableCompare: true,
-                // resultsTitle:"Select an indicator to compare",
-                filtersTitle: "Select an indicator to compare",
+                // resultType: "cards",
+                enableHighlighting: false,
                 filterProperties: [
                   {
                     keys: ["title", "themes"],
@@ -249,7 +233,44 @@ export default {
                   {
                     key: "themes",
                     title: "Theme Filter",
-                    type: "multiselect",
+                    type: "select",
+                    expanded : true
+                  },
+                ],
+                subTitleProperty: "subtitle",
+                aggregateResults: "collection_group",
+                style: {
+                  "--form-flex-direction": "row",
+                },
+              },
+            },
+          },
+        },
+        // compare indicators
+        {
+          id: Symbol(),
+          type: "internal",
+          title: "Tools",
+          layout: { x: 10, y: 0, w: 2, h: 1 },
+          widget: {
+            name: "EodashTools",
+            properties: {
+              showLayoutSwitcher: false,
+              indicatorBtnText: "Select indicator to compare",
+              itemFilterConfig: {
+                enableCompare: true,
+                filtersTitle: "Select indicator to compare",
+                filterProperties: [
+                  {
+                    keys: ["title", "themes"],
+                    title: "Search",
+                    type: "text",
+                    expanded : true
+                  },
+                  {
+                    key: "themes",
+                    title: "Theme Filter",
+                    type: "select",
                     expanded : true
                   },
                 ],
@@ -280,26 +301,6 @@ export default {
             properties: {
               map: "second",
             },
-          },
-        },
-        {
-          defineWidget: (selected) => {
-            return selected
-              ? {
-                  id: "Buttons",
-                  layout: { x: "8/8/9", y: 0, w: 1, h: 3 },
-                  title: "Buttons",
-                  type: "internal",
-                  widget: {
-                    name: "EodashMapBtns",
-                    properties: {
-                      compareIndicators: {
-                        fallbackTemplate: "light",
-                      },
-                    },
-                  },
-                }
-              : null;
           },
         },
         {
