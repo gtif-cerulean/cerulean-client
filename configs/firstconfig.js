@@ -45,7 +45,7 @@ export default {
               enableSearch: false,
             },
             btnsPosition: {
-              x: "12/9/9",
+              x: "12/8/9",
               y: "3/2/2",
             }
           },
@@ -205,7 +205,7 @@ export default {
               enableSearch: false,
             },
             btnsPosition: {
-              x: "12/10/10",
+              x: "12/9/10",
               y: "3/2/2",
             }
           },
