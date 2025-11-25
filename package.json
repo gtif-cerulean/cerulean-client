@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@eodash/eodash": "https://pkg.pr.new/eodash/eodash/@eodash/eodash@2f4b38",
-    "@eox/storytelling": "1.9.7",
+    "@eox/storytelling": "^1.9.8",
     "mustache": "^4.2.0",
     "vitepress": "^1.6.3"
   }
