@@ -61,10 +61,8 @@ export default {
           widget: {
             name: "EodashTools",
             properties: {
-              // layoutTarget: "light",
-              // layoutIcon: "M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z",
+              showLayoutSwitcher: false,
               itemFilterConfig: {
-                // resultType: "cards",
                 enableHighlighting: false,
                 filterProperties: [
                   {
@@ -101,8 +99,6 @@ export default {
                   widget: {
                     name: "EodashStacInfo",
                     properties: {
-                      showIndicatorsBtn: false,
-                      showLayoutSwitcher: false,
                       featured: [
                         "description",
                         "providers",
