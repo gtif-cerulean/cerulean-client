@@ -218,6 +218,7 @@ export default {
           widget: {
             name: "EodashTools",
             properties: {
+              showLayoutSwitcher: false,
               itemFilterConfig: {
                 // resultType: "cards",
                 enableHighlighting: false,
@@ -248,7 +249,7 @@ export default {
         {
           id: Symbol(),
           type: "internal",
-          title: "Tools",
+          title: "Compare Tools",
           layout: { x: 10, y: 0, w: 2, h: 2 },
           widget: {
             name: "EodashTools",
