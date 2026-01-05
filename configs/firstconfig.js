@@ -105,6 +105,7 @@ export default {
                         "assets",
                         "sci:doi",
                         "sci:citation",
+                        "sci:publication",
                       ],
                       body: [
                         "satellite",
