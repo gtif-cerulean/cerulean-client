@@ -94,7 +94,7 @@ export default {
               ? {
                   id: "Information",
                   title: "Information",
-                  layout: { x: "8/8/9", y: 0, w: "4/4/3", h: 4 },
+                  layout: { x: "8/8/9", y: 0, w: "4/4/3", h: 6 },
                   type: "internal",
                   widget: {
                     name: "EodashStacInfo",
@@ -103,14 +103,18 @@ export default {
                         "description",
                         "providers",
                         "assets",
-                        "sci:doi"
+                        "sci:doi",
+                        "sci:citation",
                       ],
                       body: [
                         "satellite",
                         "sensor",
+                        "otherSources",
+                        "insituSources",
                         "agency",
-                        "extent"
-                      ]
+                        "extent",
+                      ],
+                      footer: []
                     },
                   },
                 }
@@ -146,6 +150,11 @@ export default {
               layout: { x: 0, y: 1, w: "3/3/2", h: 10 },
               widget: {
                 name: "EodashLayerControl",
+                properties: {
+                  cssVars: {
+                    "--list-padding": "1rem"
+                  },
+                },
               }
             } : null;
           }
@@ -288,6 +297,11 @@ export default {
           layout: { x: 0, y: 1, w: "3/3/2", h: 10 },
           widget: {
             name: "EodashLayerControl",
+            properties: {
+              cssVars: {
+                "--list-padding": "1rem"
+              },
+            },
           },
         },
         {
@@ -299,6 +313,11 @@ export default {
             name: "EodashLayerControl",
             properties: {
               map: "second",
+              properties: {
+                cssVars: {
+                  "--list-padding": "1rem"
+                },
+              },
             },
           },
         },
