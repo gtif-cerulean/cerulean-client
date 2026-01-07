@@ -167,7 +167,7 @@ export default {
                   id: "Processes",
                   type: "internal",
                   title: "Processes",
-                  layout: { x: 8, y: 6, w: 4, h: 6 },
+                  layout: { x: "8/8/9", y: 6, w: "4/4/3", h: 6 },
                   widget: {
                     name: "EodashProcess",
                   },
