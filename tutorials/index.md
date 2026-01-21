@@ -9,7 +9,7 @@ hero:
   if(window && !customElements.get('eox-itemfilter')) import("@eox/itemfilter");
 </script>
 
-Explore the Stories below to get acquainted with the various capabilities.
+Explore the Tutorials below.
 
 <script setup>
   import { ref, onMounted } from 'vue';
@@ -25,27 +25,30 @@ Explore the Stories below to get acquainted with the various capabilities.
     ],
     "title": "Search",
     "type": "text",
-    "placeholder": "Search in title or subtitle",
+    "placeholder": "Search in title",
     "expanded": true
   }, {
     "key": 'theme',
     "title": 'Theme',
     "expanded": true,
-    "type": "select"
+    "type": "multiselect"
   }
   ];
 
+const tutorialsStatic = [
+  {
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "theme": "shipping",
+    "title": "Tutorial on using dashboard for shipping industry",
+    "subtitle": "More info on why this is important tutorial",
+    "file": "tutorials/tutorial1"
+  },
+];
+
+
   onMounted(async () => {
     try {
-      const response = await fetch('https://gtif-cerulean.github.io/cif-stories/narratives.json');
-      const results = await response.json();
-      results.forEach((res)=>{
-        if (res['cover-image'] && res['cover-image'].startsWith('build')){
-            // Adapt image urls in case locally built and not absolute
-            res['cover-image'] = 'https://gtif-cerulean.github.io/cif-stories/'+res['cover-image']
-        }
-    });
-      items.value = results;
+      items.value = tutorialsStatic;
     } catch (error) {
       console.error('Error fetching JSON:', error);
     }
@@ -53,9 +56,7 @@ Explore the Stories below to get acquainted with the various capabilities.
 
   // Click event handler
   const handleResultClick = (evt) => {
-    const sections = evt.detail.file.split("/");
-    const filename = sections[sections.length-1].split(".")[0];
-    router.go(withBase(`/story?id=${filename}`));
+    router.go(withBase(`${evt.detail.file}`));
   };
 </script>
 
