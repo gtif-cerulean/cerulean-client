@@ -104,7 +104,7 @@ body {
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: #0083c8;
+  --vp-home-hero-name-background: #4fb4ba;
 }
 
 /**
@@ -130,7 +130,6 @@ body {
 :root, .VPNav {
   --vp-nav-bg-color: var(--vp-c-esa-blue);
   --vp-nav-logo-height: 50px;
-  
   background: var(--vp-c-esa-blue);
 }
 .VPNav{
@@ -139,4 +138,8 @@ body {
 }
 .VPLink{
   background: var(--vp-c-esa-blue);
+}
+
+.vp-doc h1, h2, h3, h4, a {
+  color: var(--vp-home-hero-name-background)
 }

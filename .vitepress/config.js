@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "GTIF CIF - BETA",
+  title: "Cerulean Information Factory",
   description: "Cerulean Information Factory Dashboard",
   appearance: false, // disable dark mode
   vue: {
@@ -17,6 +17,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Dashboard', link: '/uc1dashboard/' },
+      { text: 'Tutorials', link: '/tutorials/' },
       { text: 'Stories', link: '/storyviewer/' },
       { text: 'Editor', link: '/editor/' }
     ],
