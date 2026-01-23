@@ -1,10 +1,10 @@
-# Landslide Risk
+# Land Stability
 
 
-The landslide risk capability uses Interferometric SAR (InSAR) techniques to determine whether the stability of peat bogland is suitable for windfarm development.
+The Land Stability algorithm uses Interferometric SAR (InSAR) techniques to determine whether the stability of peat bogland is suitable for windfarm development.
 The InSAR technique uses Sentinel-1’s Single Look Complex (SLC) product. Millimetre-sized changes can be tracked using InSAR by studying the same area at two different time points. Areas exhibiting larger changes over time are deemed to be at higher risk of landslides.
 
-1\. Using the "Select Indicator" menu, select the "Landslide Risk" capability.
+1\. Using the "Select Indicator" menu, select the "Land Stability" algorithm.
 
 ![](assets/landslide_risk_tutorial/ascreenshot_562cc964d30e4f938b06d1ee503b3f9a_text_export.jpeg)
 
@@ -26,8 +26,8 @@ Since it takes some time for the results to be processed, they are stored for fu
 ![](assets/landslide_risk_tutorial/ascreenshot_9980bf16e20c4746b25652c7b14611ff_text_export.jpeg)
 
 
-5\. The lefend is shown in the panel on the left.
+5\. The legend is shown in the panel on the left.
 
-The bounding box for the analysis is shown in yellow. It can be togglec on and off using the "eye" icon in the legend panel.
+The bounding box for the analysis is shown in yellow. It can be toggled on and off using the "eye" icon in the legend panel.
 
 ![](assets/landslide_risk_tutorial/ascreenshot_330a7eefbcfd4343b9e15166470da2a4_text_export.jpeg)
