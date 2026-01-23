@@ -1,9 +1,9 @@
-# Structure Icing Indicator
+# Structure Icing Index
 
-The Structure Icing indicator assesses the risk to structures, such as ships and wind turbines, from freezing sea spray. The rate of ice build-up due to super-cooled sea spray freezing on contact with surfaces is a function of the air and sea surface temperatures, the wind speed, and the saltwater freezing point.
+The Structure Icing Index algorithm assesses the risk to structures, such as ships and wind turbines, from freezing sea spray. The rate of ice build-up due to super-cooled sea spray freezing on contact with surfaces is a function of the air and sea surface temperatures, the wind speed, and the saltwater freezing point.
 
 
-1\. From the "Select Indicator" menu choose the Icing Prediction Index capability.
+1\. From the "Select Indicator" menu choose the "Structure Icing Index" algorithm.
 
 ![](assets/structure_icing_indicator/ascreenshot_443ba4085d064e64a680a42c3cf1dcad_text_export.jpeg)
 
