@@ -1,9 +1,9 @@
-# POLARIS Indicator
+# Ship Risk Index (POLARIS)
 
 
 The Polar Operational Limit Assessment Risk Indexing System (POLARIS) is a methodology to assess the risk posed to a ship by ice conditions in relation to the ship's assigned ice class. It uses the WMO standard sea ice charts as the basis for the calculation.
 
-1\. Using the "Select Indicator" menu, select the "POLARIS" capability.
+1\. Using the "Select Indicator" menu, select the "Ship Risk Index (POLARIS)" algorithm.
 
 ![](assets/polaris_indicator/ascreenshot_f14ba6c59f4c4bcc8fe490a6b28eb31b_text_export.jpeg)
 
