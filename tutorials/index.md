@@ -49,6 +49,48 @@ const tutorialsStatic = [
     "title": "Polaris Indicator",
     "subtitle": "",
     "file": "tutorials/polaris_indicator"
+  },
+    {
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "theme": "shipping",
+    "title": "Data Visualisation",
+    "subtitle": "",
+    "file": "tutorials/data_visualisation_tutorial"
+  },
+    {
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "theme": "shipping",
+    "title": "Hashness Indicator",
+    "subtitle": "",
+    "file": "tutorials/harshness_tutorial"
+  },
+    {
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "theme": "shipping",
+    "title": "Image Warping Capability",
+    "subtitle": "",
+    "file": "tutorials/image_warping_tutorial"
+  },
+    {
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "theme": "shipping",
+    "title": "Introduction to CIF",
+    "subtitle": "",
+    "file": "tutorials/introduction_to_cif_tutorial"
+  },
+    {
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "theme": "shipping",
+    "title": "Landslide Risk",
+    "subtitle": "",
+    "file": "tutorials/landslide_risk_tutorial"
+  },
+    {
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "theme": "shipping",
+    "title": "Wake effect",
+    "subtitle": "",
+    "file": "tutorials/wake_effect_tutorial"
   }
 ];
 
