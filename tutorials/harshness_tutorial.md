@@ -1,10 +1,10 @@
 # Harshness Indicator
 
 
-The Harshness Indicator generates maps of the relative harshness of condictions in a region based on wave height, sea ice concentration, and iceberg density data. The user can set the magnitude of each variable that is considered "harsh" and the weight that is given the variable.
+The Harshness Index algorithm generates maps of the relative harshness of condictions in a region based on wave height, sea ice concentration, and iceberg density data. The user can set the magnitude of each variable that is considered "harsh" and the weight that is given the variable.
 
 
-1\. Using the "Select Indicator" menu, select the "Harshness Capability".
+1\. Using the "Select Indicator" menu, select the "Harshness Index" algorithm.
 
 ![](assets/harshness_tutorial/ascreenshot_ce9ac7dc90904df4909607e984d0aaba_text_export.jpeg)
 
