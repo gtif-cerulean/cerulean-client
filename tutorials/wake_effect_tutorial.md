@@ -1,4 +1,4 @@
-# Wake Effect
+# Wind Turbine Wake Effect
 
 
 The turbulence that occurs downfield to a windfarm (the wake) can be observed by Sentinel-1. The consequence of this more turbulent air can be a reduction in wind resource in other windfarms downfield. Depending on the prevailing wind direction, newly constructed offshore wind farms can “steal” the wind resource from existing wind farms. The algorithm shows the wind and current direction from CMEMS model data overlayed on Sentinel-1 IW GRD SAR data.
