@@ -8,7 +8,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "@eodash/eodash": "5.5.0",
+    "@eodash/eodash": "https://pkg.pr.new/eodash/eodash/@eodash/eodash@db1640a",
     "@eox/storytelling": "^1.10.0",
     "mustache": "^4.2.0",
     "vitepress": "^1.6.3"

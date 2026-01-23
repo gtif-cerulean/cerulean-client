@@ -39,10 +39,17 @@ const tutorialsStatic = [
   {
     "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
     "theme": "shipping",
-    "title": "Tutorial on using dashboard for shipping industry",
-    "subtitle": "More info on why this is important tutorial",
-    "file": "tutorials/tutorial1"
+    "title": "Structure Icing Index",
+    "subtitle": "",
+    "file": "tutorials/structure_icing_indicator"
   },
+  {
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "theme": "shipping",
+    "title": "Polaris Indicator",
+    "subtitle": "",
+    "file": "tutorials/polaris_indicator"
+  }
 ];
 
 
