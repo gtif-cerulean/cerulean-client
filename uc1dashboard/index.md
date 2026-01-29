@@ -3,7 +3,8 @@ layout: false
 ---
 
 <script setup>
-    import { onMounted, withBase } from 'vitepress';
+    import { withBase } from 'vitepress';
+    import { onMounted, watch } from 'vue';
     import VPNav from 'vitepress/dist/client/theme-default/components/VPNav.vue';
     import { trackEvent } from "@eox/pages-theme-eox/src/helpers.js";
     const cacheBuster = `?t=${new Date().getTime()}`; // Add a timestamp for cache busting
