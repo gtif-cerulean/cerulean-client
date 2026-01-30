@@ -1,9 +1,5 @@
 ---
-layout: home
-hero:
-  name: "Cerulean Information Factory"
-  tagline: "Transforming ocean data into information to support the green transition for Shipping, Offshore Renewable Energy and Aquaculture"
-  text: ""
+layout: page
 ---
 <script client-only>
   if(window && !customElements.get('eox-itemfilter')) import("@eox/itemfilter");

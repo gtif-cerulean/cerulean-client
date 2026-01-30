@@ -28,19 +28,5 @@ layout: false
     })
 </script>
 
-<VPNav />
-<eo-dash  :config="withBase(`/configs/firstconfig.js${cacheBuster}`)"/>
-
-<style scoped>
-  eo-dash {
-    display:block;
-    position: relative;
-    top: var(--vp-nav-height);
-    height: calc(100dvh - var(--vp-nav-height)) !important;
-  }
-  @media (max-width: 960px) {
-    eo-dash {
-      top: 0;
-    }
-  }
-</style>
+<NavBar></NavBar>
+<eo-dash style="top: 60px;height:calc(100dvh - 60px);display:block;" :config="withBase(`/configs/firstconfig.js${cacheBuster}`)"/>
