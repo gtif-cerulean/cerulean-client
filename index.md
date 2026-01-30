@@ -1,22 +1,17 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+layout: page
 
-hero:
-  name: "Welcome to the
-Cerulean Information Factory Beta Dashboard"
-  text: ""
-  image:
-    src: /assets/cerulean_logo_text.png
-  tagline: ""
 ---
+## Welcome to the Cerulean Information Factory Beta Dashboard
 
-# CIF Background
+![Cerulean Information Factory Logo](/assets/cerulean_logo_text.png)
+
+### CIF Background
 
 The Cerulean Information Factory (CIF) is a demonstration project funded by the European Space Agency (ESA) to develop tools and capabilities that can assist marine industries in supporting a transition to a more sustainable future. CIF is named after the blue-green colour, reflecting the need to combine the Blue and Green Economies in order to have a successful Green Transition.
 The CIF project is part of the ESA “Green Transition Information Factories” (GTIF) initiative [https://gtif.esa.int/](https://gtif.esa.int/). The intent is to use Earth Observation (EO) data, geospatial and digital platform technologies, and advanced analytics to generate actionable knowledge and decision support for climate change impact reduction and adaptation.
 
-# CIF Focus
+### CIF Focus
 
 The CIF demonstration focus region is the North Atlantic and Arctic seas between Canada and Europe.
 
@@ -44,7 +39,7 @@ The CIF demonstration provides examples relevant to three topics: Arctic shippin
   </figure>
 </div>
 
-# CIF Tools
+### CIF Tools
 
 This website demonstrates the CIF Dashboard that provides tools for information visualisation and interaction.
 
@@ -55,7 +50,7 @@ However, the CIF Dashboard is just the tip of the iceberg of CIF capabilities. D
 - Execution environment
 - Data storage and management
 
-# CIF Opportunities
+### CIF Opportunities
 
 The CIF functionality can be customized to meet your needs. For more information, please contact:
 
