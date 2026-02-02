@@ -10,6 +10,7 @@ Explore the Stories below to get acquainted with the various capabilities.
 <script setup>
   import { ref, onMounted } from 'vue';
   import { withBase, useRouter } from 'vitepress';
+  import { trackEvent } from "@eox/pages-theme-eox/src/helpers.js";
 
   const router = useRouter();
   const items = ref([]);
@@ -51,6 +52,7 @@ Explore the Stories below to get acquainted with the various capabilities.
   const handleResultClick = (evt) => {
     const sections = evt.detail.file.split("/");
     const filename = sections[sections.length-1].split(".")[0];
+    trackEvent(['stories', 'select', filename]);
     router.go(withBase(`/story?id=${filename}`));
   };
 </script>
