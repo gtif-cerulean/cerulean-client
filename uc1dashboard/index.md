@@ -28,4 +28,4 @@ layout: false
 </script>
 
 <NavBar></NavBar>
-<eo-dash style="height:calc(100dvh - 60px);display:block;" :config="withBase(`/configs/firstconfig.js${cacheBuster}`)"/>
+<eo-dash style="top: 60px;height:calc(100dvh - 60px);display:block;" :config="withBase(`/configs/firstconfig.js${cacheBuster}`)"/>
