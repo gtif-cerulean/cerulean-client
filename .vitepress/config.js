@@ -19,8 +19,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Dashboard', link: '/uc1dashboard/' },
       { text: 'Tutorials', link: '/tutorials/' },
-      { text: 'Stories', link: '/storyviewer/' },
-      { text: 'Editor', link: '/editor/' }
+      { text: 'Stories', link: '/storyviewer/' }
     ],
   },
 })
