@@ -71,9 +71,10 @@ The information varies by data variable, but typically consists of the variable 
 
 ![](assets/introduction_to_cif/File_d8bc13488a4840f2a86703524eb374cf_text_export.jpeg)
 
+<br>
 
-9\. Return to the Dashboard &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
 
-Continue to the next Tutorial &lt;Link&gt;
+Continue to the next Tutorial, [Data Visualization](https://cif.eox.at/tutorials/data_visualisation);
