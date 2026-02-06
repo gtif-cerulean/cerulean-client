@@ -33,8 +33,10 @@ In this example, the wind turbines are bright spots in the SAR image. The blue a
 ![](assets/wind_turbine_wake_effect/File_5b429852b5074c57bd4c08fab43d69cd_text_export.jpeg)
 
 
-6\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [Land Stability](https://cif.eox.at/tutorials/land_stability);

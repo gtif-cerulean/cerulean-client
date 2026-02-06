@@ -24,11 +24,13 @@ Here are some examples:
 ![](assets/narrative_editor/ascreenshot_50279df2f49c444480e79699b4f9bc7a_text_export.jpeg)
 
 
-5\. The Narrative Editor is accessed within a configured Polar TEP Workspace &lt;Link to Workspace Tutorial&gt;.
+5\. The Narrative Editor is accessed within a configured [Polar TEP Workspace](https://cif.eox.at/tutorials/polartep_workspaces).
 
 Detailed instructions are available [here](https://documentation.hub.eox.at/narrative-editor-1/).
 
 
-6\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
+
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);

@@ -47,8 +47,10 @@ The Polar Operational Limit Assessment Risk Indexing System (POLARIS) is a metho
 ![](assets/polaris/File_d35af83f28fc4a5cba56b0e841c50c9c_text_export.jpeg)
 
 
-10\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [Sea Ice Motion Animation](https://cif.eox.at/tutorials/polarwarp);

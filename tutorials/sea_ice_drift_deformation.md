@@ -51,8 +51,10 @@ Click "Execute".
 ![](assets/sea_ice_drift_deformation/ascreenshot_e98f230e9a7f481e9ec914ea2d40785c_text_export.jpeg)
 
 
-10\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [Polar TEP Workspaces](https://cif.eox.at/tutorials/polartep_workspaces);

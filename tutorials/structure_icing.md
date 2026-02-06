@@ -40,8 +40,10 @@ Click "Execute".
 ![](assets/structure_icing/File_7531635c0d944476aea3bb06aac1d209_text_export.jpeg)
 
 
-8\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [Harshness Index](https://cif.eox.at/tutorials/harshness_index);

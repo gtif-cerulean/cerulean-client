@@ -77,4 +77,4 @@ Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
 Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
 
-Continue to the next Tutorial, [Data Visualization](https://cif.eox.at/tutorials/data_visualisation);
+Continue to the next Tutorial, [Data Visualization and Analysis](https://cif.eox.at/tutorials/data_visualisation);

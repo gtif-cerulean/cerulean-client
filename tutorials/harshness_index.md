@@ -50,8 +50,10 @@ Click "Execute".
 ![](assets/harshness_index/File_01ff26c2269c46d7b019794259ca4ad6_text_export.jpeg)
 
 
-10\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [POLARIS Ship Risk Index](https://cif.eox.at/tutorials/polaris);

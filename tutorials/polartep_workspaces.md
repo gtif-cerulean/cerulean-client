@@ -6,7 +6,7 @@ Polar TEP workspaces are part of the CIF ecosystem, providing capabilities for m
 - Execution environment
 - Data storage and management
 
-1\. Polar TEP workspaces can be accessed at polartep.hub.eox.at &lt;Link&gt;
+1\. Polar TEP workspaces can be accessed [here](https://polartep.hub.eox.at)
 
 ![](assets/polartep_worskpaces/ascreenshot_ee26976bbd1640ef91f4e4c50f0a9f3b_text_export.jpeg)
 
@@ -66,7 +66,7 @@ The Cerulean Information Factory (CIF) interface is an example of a Dashboard.
 
 The Cerulean Information Factory (CIF) Dashboard contains example stories.
 
-More information on the Narrative Editor is available in a separate tutorial (Link).
+More information on the Narrative Editor is available in a separate [tutorial](https://documentation.hub.eox.at/narrative-editor-1/).
 
 ![](assets/polartep_worskpaces/ascreenshot_d35ddb63b80a45c38d0fd9346eebc32c_text_export.jpeg)
 
@@ -88,8 +88,10 @@ It exposes a FastAPI based interface, supporting image formats such as PNG and J
 ![](assets/polartep_worskpaces/ascreenshot_77ad57574b04429ea7a820e5ae769fb8_text_export.jpeg)
 
 
-15\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [Narrative Workspace](https://cif.eox.at/tutorials/narrative_editor);

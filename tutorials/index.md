@@ -33,63 +33,63 @@ Explore the Tutorials below.
 
 const tutorialsStatic = [
   {
-    "cover-image": "https://github.com/gtif-cerulean/cerulean-client/blob/main/tutorials/assets/introduction_to_cif/ascreenshot_69ef5ddc597f47af987c6981697817ca_text_export.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/introduction_to_cif/ascreenshot_69ef5ddc597f47af987c6981697817ca_text_export.jpeg",
     "theme": "shipping",
     "title": "A. Introduction to the CIF Dashboard",
     "subtitle": "",
     "file": "tutorials/introduction_to_cif"
   },
   {
-    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/data_visualisation/ascreenshot_f93c5de44c9448bf91af36b205cdcc17_text_export.jpeg",
     "theme": "shipping",
     "title": "B. Data Visualization and Analysis",
     "subtitle": "",
     "file": "tutorials/data_visualisation"
   },
     {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_2075cef4151b4dbbae1f8afe9b8ca1e7_text_export.Bc5Clfh4.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/structure_icing/File_0985a5e41eee4e09abbfac0a18af38c7_text_export.jpeg",
     "theme": "shipping",
     "title": "C. Structure Icing Index",
     "subtitle": "",
     "file": "tutorials/structure_icing"
   },
     {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_a8180f4be9314ad09475adcfca23309a_text_export.DwcNZS4W.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/harshness_index/File_b994dd5dcbaf4f408dff7b288f5709c7_text_export.jpeg",
     "theme": "shipping",
     "title": "D. Hashness Index",
     "subtitle": "",
     "file": "tutorials/harshness_index"
   },
     {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_0717035d0b8643eab118d13e885969cd_text_export.C6uDYap-.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/polarwarp/File_2ca7b95f29004116802b88cb022c6003_text_export.jpeg",
     "theme": "shipping",
     "title": "F. Sea Ice Motion Animation",
     "subtitle": "",
     "file": "tutorials/polarwarp"
   },
     {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_2b182b3129654575828b87e7153b5772_text_export.y2KZUb8T.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/polaris/File_cd849fc922364b75b2122595b108946f_text_export.jpeg",
     "theme": "shipping",
     "title": "E. POLARIS Ship Risk Index",
     "subtitle": "",
     "file": "tutorials/polaris"
   },
     {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_330a7eefbcfd4343b9e15166470da2a4_text_export.BN7kTpEt.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/wind_turbine_wake_effect/File_4a0bf9a0a7b2430c9179a71efb9d9b40_text_export.jpeg",
     "theme": "shipping",
     "title": "G. Wind Turbine Wake Effect",
     "subtitle": "",
     "file": "tutorials/wind_turbine_wake_effect"
   },
     {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_0f6d65975e5849edbaada63df3f45d82_text_export.DyJ-MVpr.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/route_optimization/ascreenshot_a039a2ee76eb4b739626a8a94680d34f_text_export.jpeg",
     "theme": "shipping",
     "title": "J. Route Optimization",
     "subtitle": "",
     "file": "tutorials/route_optimization"
   },
       {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_0f6d65975e5849edbaada63df3f45d82_text_export.DyJ-MVpr.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/sea_ice_drift_deformation/ascreenshot_b8ea354d5c394f7b9ec79676c8a401ac_text_export.jpeg",
     "theme": "shipping",
     "title": "K. Sea Ice Drift and Deformation",
     "subtitle": "",
@@ -103,7 +103,7 @@ const tutorialsStatic = [
     "file": "tutorials/land_stability"
   },
       {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_0f6d65975e5849edbaada63df3f45d82_text_export.DyJ-MVpr.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/normalise_difference_turbidity/ascreenshot_6cb0128a138141339042c9f6c9447722_text_export.jpeg",
     "theme": "shipping",
     "title": "I. Normalised Difference Turbidity Index",
     "subtitle": "",
@@ -121,7 +121,7 @@ const tutorialsStatic = [
     "theme": "shipping",
     "title": "M. Narrative Editor",
     "subtitle": "",
-    "file": "tutorials/pnarrative_editor"
+    "file": "tutorials/narrative_editor"
   }
 ];
 

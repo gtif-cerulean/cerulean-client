@@ -40,8 +40,10 @@ Click "Execute".
 ![](assets/normalise_difference_turbidity/ascreenshot_a3a77376b094433e9f2882ff4d66faaf_text_export.jpeg)
 
 
-7\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [Route Optimization](https://cif.eox.at/tutorials/route_optimization);

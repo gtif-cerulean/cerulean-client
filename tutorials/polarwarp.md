@@ -54,8 +54,10 @@ Click "Execute".
 ![](assets/polarwarp/File_ebb26e48e1e24292bf53b6ce0b0de743_text_export.jpeg)
 
 
-10\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [Wind Turbine Wake Effect](https://cif.eox.at/tutorials/wind_turbine_wake_effect);

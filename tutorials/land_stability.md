@@ -36,8 +36,10 @@ Click "Execute".
 ![](assets/land_stability/ascreenshot_52871e930fc84bb9acc29de1b0a584ea_text_export.jpeg)
 
 
-7\. Return to the Dashboard &lt;Link&gt;
+<br>
 
-Return to the Tutorial Contents &lt;Link&gt;
+Return to the [Dashboard](https://cif.eox.at/uc1dashboard);
 
-Continue to the next Tutorial &lt;Link&gt;
+Return to the [Tutorial Contents](https://cif.eox.at/tutorials/);
+
+Continue to the next Tutorial, [Normalised Difference Turbulence Index](https://cif.eox.at/tutorials/normalise_difference_turbidity);
