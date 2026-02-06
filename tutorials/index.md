@@ -34,28 +34,28 @@ Explore the Tutorials below.
 const tutorialsStatic = [
   {
     "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/introduction_to_cif/ascreenshot_69ef5ddc597f47af987c6981697817ca_text_export.jpeg",
-    "theme": "Shipping", "Aquaculture", "Energy",
+    "theme": ["Shipping", "Aquaculture", "Energy"],
     "title": "A. Introduction to the CIF Dashboard",
     "subtitle": "",
     "file": "tutorials/introduction_to_cif"
   },
   {
     "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/data_visualisation/ascreenshot_f93c5de44c9448bf91af36b205cdcc17_text_export.jpeg",
-    "theme": "Shipping", "Aquaculture", "Energy",
+    "theme": ["Shipping", "Aquaculture", "Energy"],
     "title": "B. Data Visualization and Analysis",
     "subtitle": "",
     "file": "tutorials/data_visualisation"
   },
     {
     "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/structure_icing/File_0985a5e41eee4e09abbfac0a18af38c7_text_export.jpeg",
-    "theme": "Shipping", "Aquaculture", "Energy",
+    "theme": ["Shipping", "Aquaculture", "Energy"],
     "title": "C. Structure Icing Index",
     "subtitle": "",
     "file": "tutorials/structure_icing"
   },
     {
     "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/harshness_index/File_b994dd5dcbaf4f408dff7b288f5709c7_text_export.jpeg",
-    "theme": "Shipping", "Aquaculture", "Energy",
+    "theme": ["Shipping", "Aquaculture", "Energy"],
     "title": "D. Hashness Index",
     "subtitle": "",
     "file": "tutorials/harshness_index"
@@ -90,7 +90,7 @@ const tutorialsStatic = [
   },
       {
     "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/sea_ice_drift_deformation/ascreenshot_b8ea354d5c394f7b9ec79676c8a401ac_text_export.jpeg",
-    "theme": "Shipping", "Aquaculture", "Energy",
+    "theme": ["Shipping", "Aquaculture", "Energy"],
     "title": "K. Sea Ice Drift and Deformation",
     "subtitle": "",
     "file": "tutorials/sea_ice_drift_deformation"
@@ -111,14 +111,14 @@ const tutorialsStatic = [
   },
       {
     "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/polartep_worskpaces/ascreenshot_ee26976bbd1640ef91f4e4c50f0a9f3b_text_export.jpeg",
-    "theme": "Shipping", "Aquaculture", "Energy",
+    "theme": ["Shipping", "Aquaculture", "Energy"],
     "title": "L. Polar TEP Workspaces",
     "subtitle": "",
     "file": "tutorials/polartep_workspaces"
   },
         {
     "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/narrative_editor/ascreenshot_f392fe1c350b48df87430d06e69db988_text_export.jpeg",
-    "theme": "Shipping", "Aquaculture", "Energy",
+    "theme": ["Shipping", "Aquaculture", "Energy"],
     "title": "M. Narrative Editor",
     "subtitle": "",
     "file": "tutorials/narrative_editor"
