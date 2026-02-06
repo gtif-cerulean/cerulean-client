@@ -33,7 +33,7 @@ Explore the Tutorials below.
 
 const tutorialsStatic = [
   {
-    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cif-stories/refs/heads/main/assets/BlackCA/IMG_1499NPI.JPG",
+    "cover-image": "https://github.com/gtif-cerulean/cerulean-client/blob/main/tutorials/assets/introduction_to_cif/ascreenshot_69ef5ddc597f47af987c6981697817ca_text_export.jpeg",
     "theme": "shipping",
     "title": "A. Introduction to the CIF Dashboard",
     "subtitle": "",
