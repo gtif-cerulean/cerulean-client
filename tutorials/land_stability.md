@@ -1,39 +1,40 @@
-# J. Route Optimization
+# H. Land Stability
 
-The Route Optimization algorithm calculates the optimal route between two points that minimizes transit time and fuel consumption, while ensuring the voyage is safe given the ice conditions and ice class of the ship. The ice conditions are obtained from the relevant sea ice chart and the risk to the ship is calculated using the POLARIS algorithm.
+The Land Stability algorithm uses Interferometric SAR (InSAR) techniques to determine whether the stability of peat bogland is suitable for windfarm development.
+Millimetre-sized changes can be tracked using InSAR by studying the same area at two different time points. Areas exhibiting larger changes over time are deemed to be at higher risk of instability.
 
-1\. From the "Select Indicator" menu choose the "Route Optimization" algorithm.
+1\. Using the "Select Indicator" menu, select the "Land Stability" algorithm.
 
-![](assets/land_stability/ascreenshot_f360b83070d045dc9c9c04bffa54218c_text_export.jpeg)
-
-
-2\. For the demonstration version of the CIF Dashboard, the Route Optimization algorithm is restricted to one ice chart.
-
-Use the start and end point selection tool ...
-
-![](assets/land_stability/ascreenshot_0ebb65f86bf44ea08a4029004bd66564_text_export.jpeg)
+![](assets/land_stability/ascreenshot_9b02ad8255b040c6945f01a4aafeae91_text_export.jpeg)
 
 
-3\. ... to choose the start and end point within the ice chart. 
+2\. For the demonstration version of the CIF Dashboard, the Landslide Risk algorithm is restricted to one location in Ireland.
+
+Using the two "Select date" boxes choose the dates to be compared for the analysis.
 
 Click "Execute".
 
-![](assets/land_stability/ascreenshot_743e73046b1d459a8941521aaeb2ff9d_text_export.jpeg)
+![](assets/land_stability/File_6136a66d657944479ba458519b8e68aa_text_export.jpeg)
 
 
-4\. One the processing is finished, the optimal route is displayed on the map as a red line.
+3\. After a period of processing, the results are displayed on the map.
 
-![](assets/land_stability/ascreenshot_a039a2ee76eb4b739626a8a94680d34f_text_export.jpeg)
+The legend is shown in the panel on the left.
+
+The bounding box for the analysis is shown in yellow. It can be toggled on and off using the "eye" icon in the legend panel.
+
+![](assets/land_stability/File_a9f04068a69543c6b40f1db1dcabfc36_text_export.jpeg)
 
 
-5\. Since it takes some time for the results to be processed, they are stored for future access. For each stored run there is information on the date of execution and whether the run was successful or failed. There are options to load the results on the map, download the results, or delete the run.
+4\. Since it takes some time for the results to be processed, they are stored for future access. For each stored run there is information on the date of execution and whether the run was successful or failed. There are options to load the results on the map, download the results, or delete the run.
 
-![](assets/land_stability/ascreenshot_868d23c31e004c2ca239e8155789333a_text_export.jpeg)
+![](assets/land_stability/File_3a9833e5918f4537a514f60c15b48080_text_export.jpeg)
 
 
-6\. Clicking on the question mark icon beside the execution date opens the metadata for the run.
+5\. Clicking on the question mark icon beside the execution date opens the metadata for the run.
 
-![](assets/land_stability/ascreenshot_52871e930fc84bb9acc29de1b0a584ea_text_export.jpeg)
+![](assets/land_stability/File_13dd7d3a0e584611847d12310380bc4d_text_export.jpeg)
+
 
 
 <br>
