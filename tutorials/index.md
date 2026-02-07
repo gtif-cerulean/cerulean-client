@@ -96,7 +96,7 @@ const tutorialsStatic = [
     "file": "tutorials/sea_ice_drift_deformation"
   },
       {
-    "cover-image": "https://cif.eox.at/assets/ascreenshot_0f6d65975e5849edbaada63df3f45d82_text_export.DyJ-MVpr.jpeg",
+    "cover-image": "https://raw.githubusercontent.com/gtif-cerulean/cerulean-client/refs/heads/main/tutorials/assets/land_stability/File_3a9833e5918f4537a514f60c15b48080_text_export.jpeg",
     "theme": "Energy",
     "title": "H. Land Stability",
     "subtitle": "",
