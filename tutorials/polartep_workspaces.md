@@ -64,7 +64,7 @@ The Cerulean Information Factory (CIF) interface is an example of a Dashboard.
 
 11\. Users may have access to the Narrative Editor, a content editor for creating and publishing structured narratives combined with Earth Observation (EO) content called 'stories'.
 
-The Cerulean Information Factory (CIF) Dashboard contains example stories.
+The Cerulean Information Factory (CIF) Dashboard contains example [stories](https://cif.eox.at/storyviewer/).
 
 More information on the Narrative Editor is available in a separate [tutorial](https://documentation.hub.eox.at/narrative-editor-1/).
 

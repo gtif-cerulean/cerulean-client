@@ -24,7 +24,7 @@ Most of the data can be analyzed statistically.
 ![](assets/data_visualisation/ascreenshot_74da4b264ac047a9b385e94a084ec308_text_export.jpeg)
 
 
-3\. Radarasat Constellation Mission (RCM) and Sentinel 1 are Synthetic Aperature Radar (SAR) satellites that can see in the dark and through clouds. For Sentinel 1, EW HH means Extra Wide swath mode and Horizontal polarization for both transmit and receive. IW VV means Interferometric Wide swath mode and Verticle polarization for both transmit and receive.
+3\. Radarsat Constellation Mission (RCM) and Sentinel 1 are Synthetic Aperture Radar (SAR) satellites that can see in the dark and through clouds. For Sentinel 1, EW HH means Extra Wide swath mode and Horizontal polarization for both transmit and receive. IW VV means Interferometric Wide swath mode and Verticle polarization for both transmit and receive.
 
 ![](assets/data_visualisation/ascreenshot_4e0c45dc30744161a0aea69acc2ba701_text_export.jpeg)
 
@@ -39,7 +39,7 @@ Most of the data can be analyzed statistically.
 ![](assets/data_visualisation/ascreenshot_15d0b8cb44234812a532aa222803b930_text_export.jpeg)
 
 
-6\. Vector data is illustrated as a combination of a colour, indicating magnitude, and an arrow, indicating direction.
+6\. Vector data is illustrated as a combination of a colour, indicating magnitude, and arrows, indicating direction.
 
 ![](assets/data_visualisation/ascreenshot_c1fd4fb57cb247fd93597311789e2f5e_text_export.jpeg)
 

@@ -1,8 +1,8 @@
 # A. Introduction to the CIF Dashboard
 
-The Cerulean Information Factory (CIF) is a demonstration project funded by the European Space Agency (ESA) to develop tools and capabilities that can assist marine industries in supporting a transition to a more sustainable future. The CIF demonstration focus region is the North Atlantic and Arctic seas between Canada and Europe. The CIF demonstration provides examples relevant to three topics: Arctic shipping, offshore wind energy, and aquaculture.
+The Cerulean Information Factory (CIF) is a demonstration project funded by the European Space Agency (ESA) to develop tools and capabilities that can assist marine industries in supporting a transition to a more sustainable future. The CIF demonstration focus region is the North Atlantic and Arctic Oceans between Canada and Europe. The CIF demonstration provides examples relevant to three topics: Arctic shipping, offshore wind energy, and aquaculture.
 
-1\. Navigate to <https://cif.eox.at/>
+1\. To begin, navigate to <https://cif.eox.at/>
 
 The CIF Home Page provides background information about the Cerulean Information Factory project. The menu at the top provides links back to the Home Page, to the CIF Dashboard, to CIF Stories, and to the Tutorial Pages. 
 
@@ -20,7 +20,7 @@ Click "Select Indicator".
 
 3\. This menu provides access to a wide range of data variables and algorithms that process data to derive information.
 
-The options can be filtered using a search function or the Theme Filter. In this example, the search term "sea ice" and the theme "Shipping" have been used as a filters to reduce the number of capabilities and data variables offered.
+The options can be filtered using a search function or the Theme Filter. In this example, the search term "sea ice" and the theme "Shipping" have been used as filters to reduce the number of capabilities and data variables offered.
 
 Next, the "Sea Ice Area Fraction" data variable will be used to illustrate components of the dashboard. 
 

@@ -9,19 +9,17 @@ The Route Optimization algorithm calculates the optimal route between two points
 
 2\. For the demonstration version of the CIF Dashboard, the Route Optimization algorithm is restricted to one ice chart.
 
-Use the start and end point selection tool ...
+Use the start and end point selection tool to choose the start and end point within the ice chart.
 
 ![](assets/route_optimization/ascreenshot_0ebb65f86bf44ea08a4029004bd66564_text_export.jpeg)
 
 
-3\. ... to choose the start and end point within the ice chart. 
-
-Click "Execute".
+3\. Click "Execute".
 
 ![](assets/route_optimization/ascreenshot_743e73046b1d459a8941521aaeb2ff9d_text_export.jpeg)
 
 
-4\. One the processing is finished, the optimal route is displayed on the map as a red line.
+4\. Once the processing is finished, the optimal route is displayed on the map as a red line.
 
 ![](assets/route_optimization/ascreenshot_a039a2ee76eb4b739626a8a94680d34f_text_export.jpeg)
 

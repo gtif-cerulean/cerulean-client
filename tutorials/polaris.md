@@ -7,7 +7,7 @@ The Polar Operational Limit Assessment Risk Indexing System (POLARIS) is a metho
 ![](assets/polaris/ascreenshot_f2edad39275549889ebfac52d2a8504b_text_export.jpeg)
 
 
-2\. Select the date of the ice chart from the calendar box.
+2\. Select the date of the ice chart from the calendar box. The number of ice charts available in one day is represented by dots above each date in the calendar.
 
 ![](assets/polaris/File_93027f8df0d643669a73a10f1da9703f_text_export.jpeg)
 
