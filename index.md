@@ -50,7 +50,7 @@ However, the CIF Dashboard is just the tip of the iceberg of CIF capabilities. D
 - Data storage, management, and access
 
 **CIF Ecosystem**
-![CIF Ecosystem Diagram](/assets/CIF_Area_Map.png)
+![CIF Ecosystem Diagram](/assets/CIF_iceberg_v3.png)
 
 ### CIF Opportunities
 
