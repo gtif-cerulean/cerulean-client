@@ -5,7 +5,7 @@ layout: page
   if(window && !customElements.get('eox-itemfilter')) import("@eox/itemfilter");
 </script>
 
-Explore the Stories below to get acquainted with the various capabilities.
+Explore the Stories below to get acquainted with some of the CIF capabilities and the types of stories that can be produced using the CIF Narrative tool, part of the CIF Ecosystem available to users. Visit the Tutorials page to learn about the details of the CIF capabilities and how to get started using them.
 
 <script setup>
   import { ref, onMounted } from 'vue';
