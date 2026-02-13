@@ -43,18 +43,20 @@ The CIF demonstration provides examples relevant to three topics: Arctic shippin
 
 This website demonstrates the CIF Dashboard that provides tools for information visualisation and interaction.
 
-However, the CIF Dashboard is just the tip of the iceberg of CIF capabilities. Driving the information in the dashboard is a complete ecosystem of information technologies:
+However, the CIF Dashboard is just the tip of the iceberg of CIF capabilities. Driving the information in the dashboard is a complete ecosystem of information technologies for:
 
-- Data access
-- Application development
-- Execution environment
-- Data storage and management
+- Information discovery and interaction
+- Programming and processing
+- Data storage, management, and access
+
+**CIF Ecosystem**
+![CIF Ecosystem](/assets/CIF_iceberg_V3.jpg)
 
 ### CIF Opportunities
 
 The CIF functionality can be customized to meet your needs. For more information, please contact:
 
-- David Arthurs
-- Managing Director
-- Polar View
-- Email: david.arthurs@polarview.org
+David Arthurs
+Managing Director
+Polar View
+Email: david.arthurs@polarview.org
