@@ -47,7 +47,7 @@ However, the CIF Dashboard is just the tip of the iceberg of CIF capabilities. D
 
 - Information discovery and interaction
 - Programming and processing
-- Data storage, management, and access
+- Data storage, management, and access 
 
 **CIF Ecosystem**
 ![CIF Ecosystem](/assets/CIF_iceberg_V3.jpg)
