@@ -49,9 +49,6 @@ However, the CIF Dashboard is just the tip of the iceberg of CIF capabilities. D
 - Programming and processing
 - Data storage, management, and access 
 
-**CIF Ecosystem**
-![CIF Ecosystem](/assets/CIF_iceberg_V3.jpg)
-
 ### CIF Opportunities
 
 The CIF functionality can be customized to meet your needs. For more information, please contact:
