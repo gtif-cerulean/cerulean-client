@@ -38,10 +38,34 @@ export default {
           name: "EodashMap",
           properties: {
             enableCompare: true,
-            zoomToExtent: true,
+            zoomToExtent: false,
             btns: {
               enableExportMap: true,
-              enableCompareIndicators: true,
+              enableCompareIndicators: {
+                itemFilterConfig: {
+                  resultType: "list",
+                  enableHighlighting: false,
+                  filterProperties: [
+                    {
+                      keys: ["title", "themes"],
+                      title: "Search",
+                      type: "text",
+                      expanded : true
+                    },
+                    {
+                      key: "themes",
+                      title: "Theme Filter",
+                      type: "select",
+                      expanded : true
+                    },
+                  ],
+                  subTitleProperty: "subtitle",
+                  aggregateResults: "collection_group",
+                  style: {
+                    "--form-flex-direction": "row",
+                  },
+                },
+              },
               enableSearch: false,
               enableGlobe: false,
             },
@@ -49,7 +73,9 @@ export default {
               x: "12/8/9",
               y: 1,
               gap: 32
-            }
+            },
+            center: [-16.5, 62],
+            zoom: 3.5,
           },
         },
       },
@@ -274,7 +300,7 @@ export default {
           id: "CompareTools",
           type: "internal",
           title: "Compare Tools",
-          layout: { x: 10, y: 0, w: 2, h: 2 },
+          layout: { x: 9, y: 0, w: 3, h: 2 },
           widget: {
             name: "EodashTools",
             properties: {
@@ -282,6 +308,7 @@ export default {
               indicatorBtnText: "Select indicator to compare",
               itemFilterConfig: {
                 enableCompare: true,
+                resultType: "list",
                 filtersTitle: "Select indicator to compare",
                 filterProperties: [
                   {
@@ -297,6 +324,7 @@ export default {
                     expanded : true
                   },
                 ],
+                aggregateResults: "collection_group",
                 enableHighlighting: false,
                 cssVars: {
                   "--form-flex-direction": "row",
