@@ -13,5 +13,6 @@
     "@eox/pages-theme-eox": "^1.1.1",
     "mustache": "^4.2.0",
     "vitepress": "^1.6.3"
-  }
+  },
+  "version": "1.0.0"
 }
