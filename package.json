@@ -5,7 +5,7 @@
     "start": "vitepress dev",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview && echo 1"
   },
   "dependencies": {
     "@eodash/eodash": "^5.6.0",
