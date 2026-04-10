@@ -1,5 +1,7 @@
 ---
-layout: false
+layout: page
+footer: false
+feedback: false
 ---
 
 <script setup>
@@ -27,5 +29,19 @@ layout: false
     })
 </script>
 
-<NavBar></NavBar>
-<eo-dash style="display:block;position: fixed;inset: 60px 0 0 0;" :config="withBase(`/configs/firstconfig.js${cacheBuster}`)"/>
+<eo-dash :config="withBase(`/configs/firstconfig.js${cacheBuster}`)"/>
+
+<style>
+eo-dash {
+  display: block;
+  height: calc(100dvh - var(--vp-nav-height));
+  width: 100%;
+}
+.VPPage:has(eo-dash) {
+  padding: 0;
+  max-width: unset;
+}
+body:has(eo-dash) .news-banner {
+  display: none;
+}
+</style>
