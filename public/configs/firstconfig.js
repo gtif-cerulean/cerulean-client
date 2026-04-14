@@ -13,6 +13,12 @@ export default {
       },
     },
     footerText: "Demo configuration of eodash client",
+    feedback: {
+      endpoint:
+        "https://git-issue-creator.cif.hub-otc.eox.at/create-issue?repo=github.com/gtif-cerulean/gtif-cerulean",
+      schema: feedbackSchema,
+      position: "bottom-right",
+    },
   },
   templates: {
     light: {
