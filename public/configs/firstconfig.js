@@ -4,7 +4,13 @@ const feedbackSchema = await fetch(`/configs/feedback_schema.json${cacheBuster}`
 
 export default {
   id: "gtif-cerulean",
-  stacEndpoint: "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
+  stacEndpoint: {
+    endpoint: "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
+    supportedUpscalingEndpoints: [
+      { url: "eoapi.workspace.cif.hub-otc.eox.at", titilerVersion: 2 },
+      { url: "eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at", titilerVersion: 2 },
+    ],
+  },
   brand: {
     noLayout: true,
     name: "GTIF Cerulean",
