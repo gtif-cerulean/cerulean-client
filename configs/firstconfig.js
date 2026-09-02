@@ -7,10 +7,11 @@ export default {
   stacEndpoint: {
     endpoint: "https://gtif-cerulean.github.io/cerulean-catalog/cerulean/catalog.json",
     supportedUpscalingEndpoints: [
-      { url: "eoapi.workspace.cif.hub-otc.eox.at", titilerVersion: 2 },
-      { url: "eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at", titilerVersion: 2 },
+      { url: "eoapi.workspace.cif.hub-otc.eox.at", titilerVersion: 2, scaleFactor: 3},
+      { url: "eoapi.workspace.polartep-iceview.hub-otc-sc.eox.at", titilerVersion: 2, scaleFactor: 2},
     ],
     colormapRegistry: "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/colormaps.json",
+    tileMatrixSetRegistry: "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/tmsRegistry.json",
   },
   brand: {
     noLayout: true,
