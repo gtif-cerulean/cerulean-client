@@ -12,7 +12,9 @@
     "vitepress": "^1.6.3"
   },
   "dependencies": {
-    "@eodash/eodash": "https://pkg.pr.new/@eodash/eodash@f717bfd",
+    "@eodash/eodash": "https://pkg.pr.new/@eodash/eodash@921d8fc",
+    "@eox/map": "https://pkg.pr.new/EOX-A/EOxElements/@eox/map@c26fdb4",
+    "@eox/jsonform": "https://pkg.pr.new/EOX-A/EOxElements/@eox/jsonform@94aa7ef",
     "@eox/storytelling": "^1.13.0"
   },
   "version": "1.0.0"
