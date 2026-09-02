@@ -5,7 +5,6 @@ layout: page
     import { onMounted } from 'vue';
     if(!customElements.get('eox-map')) import("@eox/map");
     if(!customElements.get('eox-jsonform')) import("@eox/jsonform");
-    import("@eox/map/dist/eox-map-advanced-layers-and-sources");
     onMounted(() => {
         if (window && typeof window !== 'undefined') {
             function injectStyleToShadowRoot(selector, css) {
