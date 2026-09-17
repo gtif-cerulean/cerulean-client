@@ -367,7 +367,7 @@ export default {
         {
           id: "ComparisonLayers",
           title: "Comparison Layers",
-          layout: { x: "9/9/10", y: 1, w: "3/3/2", h: 11 },
+          layout: { x: "9/9/10", y: 1, w: "3/3/2", h: 10 },
           type: "internal",
           widget: {
             name: "EodashLayerControl",
