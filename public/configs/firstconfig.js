@@ -85,6 +85,7 @@ export default {
               },
               enableSearch: false,
               enableGlobe: false,
+              enableGeolocation: false
             },
             btnsPosition: {
               x: "12/8/9",
@@ -267,6 +268,7 @@ export default {
               enableBackToPOIs: false,
               enableSearch: false,
               enableGlobe: false,
+              enableGeolocation: false,
             },
             btnsPosition: {
               x: "12/9/10",

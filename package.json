@@ -12,10 +12,11 @@
     "vitepress": "^1.6.3"
   },
   "dependencies": {
-    "@eodash/eodash": "https://pkg.pr.new/@eodash/eodash@921d8fc",
-    "@eox/map": "https://pkg.pr.new/EOX-A/EOxElements/@eox/map@c26fdb4",
-    "@eox/jsonform": "https://pkg.pr.new/EOX-A/EOxElements/@eox/jsonform@94aa7ef",
-    "@eox/storytelling": "^1.13.0"
+    "@eodash/eodash": "5.10.0",
+    "@eox/storytelling": "^1.14.0"
+  },
+  "overrides": {
+    "@eodash/stac": "0.2.0"
   },
   "version": "1.0.0"
 }
